@@ -202,3 +202,33 @@ body{
     background-color: #972626;
 
 }
+
+.information{
+
+    max-width: 1152px;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;   
+    background-color: #37183d;
+
+}
+
+.debug.container_information{
+
+    margin: 10px auto;
+    height: 80%;
+    width: 70%;
+    background-color: rgb(67, 177, 185);
+
+}
+
+.debug.container_lenguage{
+
+    margin: 0px auto;
+    height: 10%;
+    width: 70%;
+    background-color: rgb(67, 177, 185);
+
+}
