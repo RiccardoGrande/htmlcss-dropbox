@@ -6,8 +6,6 @@
 
 body{
 
-    max-width: 1152px;
-    width: 100vw;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -32,12 +30,41 @@ body{
 
     border: 1px solid black;
     background-color: #01a2ff;
+    
 
 }
 
 .headbanner{
 
-    height: 5rem;
+    height: 3rem;
+    max-width: 1152px;
     width: 100%;
+    background-color: #d21b1b;
+    display: flex;
     
+}
+
+.headbar{
+
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+
+}
+
+.head_icon{
+
+    height: 100%;
+    width: 70px;
+    background-color: #fff;
+    border: 1px solid black;
+
+}
+
+.right{
+
+    display: flex;
+    justify-content: flex-end;
+
 }
