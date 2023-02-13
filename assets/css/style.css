@@ -107,7 +107,7 @@ body{
 
 }
 
-.contact_partner{
+.contact_partner, .designit{
 
     max-width: 1152px;
     width: 100%;
@@ -147,12 +147,58 @@ body{
 
 }
 
-.debug.banner_team_client{
+.banner_team_client, .start_free_try{
 
     max-width: 1152px;
     width: 100%;
     height: 40vh;
     display: flex;
     justify-content: center;
+    background-color: #8b2c9f;
+}
+
+.container_banner{
+
+    margin: 10px auto;
+    height: 90%;
+    width: 50%;
+    background-color: #972626;
+
+}
+
+.container_designit{
+
+    margin: auto;
+    height: 100%;
+    width: calc(100% / 1 * 3);
+    background-color: #979797;
+    border: 1px solid black;
+}
+
+.container_free_try{
+
+    margin: 10px auto;
+    height: 90%;
+    width: 50%;
+    background-color: #972626;
+
+}
+
+.section_faq{
+
+    max-width: 1152px;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;    
+    background-color: #d86ded;
+}
+
+.container_faq{
+
+    margin: 25px auto;
+    height: 80%;
+    width: 50%;
+    background-color: #972626;
 
 }
