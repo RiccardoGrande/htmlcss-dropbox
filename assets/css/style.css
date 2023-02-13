@@ -69,7 +69,7 @@ body{
 
 }
 
-.free_try_plans{
+.free_try_plan{
 
     max-width: 1152px;
     width: 100%;
@@ -79,14 +79,15 @@ body{
     background-color: #a99a18;
 }
 
-.container_plans{
+.container_plan{
     
     margin: 20px auto;
-    height: 90%;
+    height: 80%;
     width: 60%;
     background-color: #26980c;
 
 }
+
 
 .business{
 
@@ -104,8 +105,51 @@ body{
     height: 90%;
     width: 50%;
     background-color: #26980c;
+    
 
 }
+
+#business_head{
+
+    height: 15%;
+    width: 100%;
+    background-color: #0c5798;
+}
+
+#business_plan{
+
+    height: 60%;
+    width: 100%;
+    background-color: #287ac2;
+    display: flex;
+}
+
+.plan{
+
+    width: calc(100% / 12 * 4);
+    height: 100%;
+    background-color: #26980c;
+}
+
+#enterprise{
+
+    height: 25%;
+    width: 100%;
+    background-color: #0c5798;
+    display: flex;
+    justify-content: center;
+}
+
+#contact_sales{
+
+    height: 90%;
+    width: 100%;
+    background-color: #67a8e2;
+    margin: auto;
+
+}
+
+
 
 .contact_partner, .designit{
 
