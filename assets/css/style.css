@@ -75,7 +75,7 @@ body{
     color: rgb(108, 108, 108);
 }
 
-.text_header_button, #free_try_button{
+.text_header_button, #free_try_button, #contact_sales_button{
 
     padding: 5px 8px;   
     background-color: var(--db-blue);
@@ -162,7 +162,6 @@ body{
     height: 150vh;
     display: flex;
     justify-content: center;
-    background-color: #9edbff;
     align-items: flex-end;
 }
 
@@ -171,8 +170,6 @@ body{
     margin: 20px auto;
     height: 90%;
     width: 50%;
-    background-color: #26980c;
-    
 
 }
 
@@ -180,7 +177,7 @@ body{
 
     height: 15%;
     width: 100%;
-    background-color: #0c5798;
+
 }
 
 #title_business{
@@ -201,6 +198,7 @@ body{
     -webkit-appearance: none;
     outline: none;
     cursor: pointer;
+    margin-right: -7px;
 
 }
 
@@ -217,13 +215,13 @@ body{
 .label_business{
 
     font-size: 10px;
+    padding: 5px;
 
 }
 #business_plan{
 
     height: 60%;
     width: 100%;
-    background-color: #287ac2;
     display: flex;
 }
 
@@ -231,10 +229,9 @@ body{
 
     width: calc(100% / 12 * 4);
     height: 100%;
-    background-color: #26980c;
 }
 
-#head_plan{
+#head_plan, .head_team_enterprise{
 
     
     width: 100%;
@@ -252,13 +249,13 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    line-height: 100%;
+    line-height: 140%;
     padding: 10px;
     border: 2px solid rgb(137, 137, 137);
 
 }
 
-#title_professional{
+#title_professional, #text_enterprise{
 
     font-size: 10px;
 
@@ -282,6 +279,7 @@ body{
     list-style: none;
     display: flex;
     flex-direction: column;
+    
 }
 
 .true{
@@ -296,11 +294,16 @@ hr{
 
 }
 
+a{
+
+    padding: 2px;
+
+}
+
 #enterprise{
 
     height: 25%;
     width: 100%;
-    background-color: #0c5798;
     display: flex;
     justify-content: center;
 }
@@ -309,8 +312,25 @@ hr{
 
     height: 90%;
     width: 100%;
-    background-color: #67a8e2;
     margin: auto;
+    position: relative;
+    border: 2px solid rgb(137, 137, 137);
+
+}
+
+.title_enterprise, #text_enterprise{
+
+    padding: 8px;
+
+}
+
+#contact_sales_button{
+
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    font-size: 10px;
+    padding: 5px 15px;
 
 }
 
@@ -323,7 +343,6 @@ hr{
     height: 70vh;
     display: flex;
     justify-content: center;
-    background-color: #1f709f;
 
 }
 
@@ -332,7 +351,6 @@ hr{
     margin: 15px auto;
     height: 90%;
     width: 50%;
-    background-color: #26980c;
     display: flex;
     justify-content: center;
 }
@@ -342,8 +360,6 @@ hr{
     height: 90%;
     width: 60%;
     margin: auto;
-    background-color: #a6e11c;
-    border: 1px solid black;
 }
 
 #image_partner{
@@ -357,8 +373,6 @@ hr{
     height: 90%;
     width: 40%;
     margin: auto;
-    background-color: #a6e11c;
-    border: 1px solid black;
 
 }
 
@@ -377,11 +391,11 @@ hr{
     padding: 5px;
 }
 
-#button_find_partner{
+#button_find_partner, #button_business{
 
     padding: 5px;
     margin-left: 4px;
-
+    background-color: #fff;
 }
 
 .operations{
@@ -438,7 +452,6 @@ hr{
     height: 40vh;
     display: flex;
     justify-content: center;
-    background-color: #8b2c9f;
 }
 
 .container_banner{
@@ -446,8 +459,15 @@ hr{
     margin: 10px auto;
     height: 90%;
     width: 50%;
-    background-color: #972626;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
+#link_clients{
+
+    font-size: 8px;
+    color: blue;
 }
 
 .container_designit{
@@ -468,13 +488,33 @@ hr{
     background-color: #01a2ff;
 }
 
+.start_free_try{
+
+    background-color: var(--db-azure);
+
+}
+
 .container_free_try{
 
     margin: 10px auto;
     height: 90%;
     width: 50%;
-    background-color: #972626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#title_business_4color{
+
+    color: var(--db-brick);
+
+}
+
+#button_business{
+
+    border-style: none;
+    padding: 10px 30px;
+    font-size: 10px;
 }
 
 .section_faq{
