@@ -269,7 +269,7 @@ body{
 
 #text_month{
 
-    color: var(--db-grey);
+    color: gray;
 
 }
 
@@ -288,7 +288,7 @@ body{
 
 }
 
-hr{
+#line_cards{
 
     width: 20px;
 
@@ -524,7 +524,6 @@ a{
     height: 60vh;
     display: flex;
     justify-content: center;    
-    background-color: #d86ded;
 }
 
 .container_faq{
@@ -532,8 +531,27 @@ a{
     margin: 25px auto;
     height: 80%;
     width: 50%;
-    background-color: #972626;
+    line-height: 250%;
+    
 
+}
+
+#title_faq{
+
+    padding: 10px 0px;
+
+}
+
+.quest_faq{
+
+    font-size: 8px;
+
+}
+
+.arrow{
+
+    padding-left: 150px;
+    font-size: 7px;
 }
 
 .information{
