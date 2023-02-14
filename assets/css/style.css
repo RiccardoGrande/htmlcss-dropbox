@@ -39,7 +39,6 @@ body{
     height: 3rem;
     max-width: 1152px;
     width: 100%;
-    background-color: #d21b1b;
     display: flex;
     
 }
@@ -56,9 +55,32 @@ body{
 .head_icon{
 
     height: 100%;
-    width: 70px;
-    background-color: #fff;
-    border: 1px solid black;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#logo{
+
+    height: 12px;
+    width: 60px;
+
+}
+
+.text_header,.text_header_button{
+
+    font-size: 7px;
+    color: rgb(108, 108, 108);
+}
+
+.text_header_button{
+
+    padding: 3px 5px;   
+    background-color: var(--db-blue);
+    color: white;
+    border: none;
 
 }
 
