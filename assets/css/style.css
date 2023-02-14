@@ -201,7 +201,6 @@ body{
     -webkit-appearance: none;
     outline: none;
     cursor: pointer;
-    font-size: 10px;
 
 }
 
@@ -215,6 +214,11 @@ body{
 
 }
 
+.label_business{
+
+    font-size: 10px;
+
+}
 #business_plan{
 
     height: 60%;
@@ -229,6 +233,19 @@ body{
     height: 100%;
     background-color: #26980c;
 }
+#head_plan{
+
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+    border: 2px solid rgb(137, 137, 137);
+    padding: 5px;
+    align-items: baseline;
+}
+
+
 
 #enterprise{
 
