@@ -233,6 +233,7 @@ body{
     height: 100%;
     background-color: #26980c;
 }
+
 #head_plan{
 
     
@@ -240,12 +241,60 @@ body{
     display: flex;
     justify-content: center;
     font-size: 8px;
-    border: 2px solid rgb(137, 137, 137);
+    border: 1px solid rgb(137, 137, 137);
     padding: 5px;
     align-items: baseline;
 }
 
+.content_plan{
 
+    height: 94%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 100%;
+    padding: 10px;
+    border: 2px solid rgb(137, 137, 137);
+
+}
+
+#title_professional{
+
+    font-size: 10px;
+
+}
+
+.detail_professional{
+
+    font-size: 6px;
+
+}
+
+#text_month{
+
+    color: var(--db-grey);
+
+}
+
+.list_professional{
+
+    font-size: 6px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.true{
+
+    color: #0061ff;
+
+}
+
+hr{
+
+    width: 20px;
+
+}
 
 #enterprise{
 
