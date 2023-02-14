@@ -337,13 +337,19 @@ hr{
     justify-content: center;
 }
 
-#img_partner{
+#img_container_partner{
 
     height: 90%;
     width: 60%;
     margin: auto;
     background-color: #a6e11c;
     border: 1px solid black;
+}
+
+#image_partner{
+
+    height: 250px;
+
 }
 
 #text_content_partner{
@@ -353,6 +359,28 @@ hr{
     margin: auto;
     background-color: #a6e11c;
     border: 1px solid black;
+
+}
+
+#title_partner{
+
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 15px;
+
+}
+
+#text_partner{
+
+    
+    font-size: 10px;
+    padding: 5px;
+}
+
+#button_find_partner{
+
+    padding: 5px;
+    margin-left: 4px;
 
 }
 
