@@ -497,6 +497,60 @@ a{
     width: calc(100% / 4 * 2);
     height: 50%;
     background-color: #01a2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.cover_designit{
+
+        background-color:  rgb(157, 246, 157) ;
+}
+
+#image_container_designit{
+
+    height: 90%;
+    width: 90%;
+    background-color:var(--db-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image_designit{
+
+    height: 20px;
+    background-color: var(--db-green);
+    fill: white;
+}
+
+.cover_university{
+
+    background-color: var(--db-brick);
+
+}
+
+.cover_topps{
+
+    background-color: var(--db-orange);
+
+}
+
+.image_topps{
+
+    fill: white;
+    height: 60px;    
+
+
+}
+
+.image_university{
+
+    fill: white;
+    height: 60px;    
+
 }
 
 .start_free_try{
