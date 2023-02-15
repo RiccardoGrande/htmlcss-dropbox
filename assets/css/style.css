@@ -223,6 +223,7 @@ body{
     height: 60%;
     width: 100%;
     display: flex;
+    gap: 0.2rem;
 }
 
 .plan{
@@ -251,7 +252,7 @@ body{
     flex-direction: column;
     line-height: 140%;
     padding: 10px;
-    border: 2px solid rgb(137, 137, 137);
+    border: 1px solid rgb(137, 137, 137);
 
 }
 
@@ -314,7 +315,7 @@ a{
     width: 100%;
     margin: auto;
     position: relative;
-    border: 2px solid rgb(137, 137, 137);
+    border: 1px solid rgb(137, 137, 137);
 
 }
 
@@ -402,10 +403,9 @@ a{
 
     max-width: 1152px;
     width: 100%;
-    height: 110vh;
+    height: 115vh;
     display: flex;
     justify-content: center;
-    background-color: #d86ded;
 
 }
 
@@ -413,8 +413,7 @@ a{
 
     margin: 20px auto;
     height: 90%;
-    width: 50%;
-    background-color: #369e1e;    
+    width: 50%;    
     
 }
 
@@ -439,9 +438,21 @@ a{
 .type{
 
     width: calc(100% / 12 * 4);
-    height: 50%;
-    background-color: #ffd904;
-    border: 1px solid black;
+    height: 53%;
+}
+
+.image_operation{
+
+    max-width: 100%;
+    padding: 5px;
+
+}
+
+.text_operation{
+
+    font-size: 7px;
+    padding: 5px 0;
+    
 }
 
 
