@@ -495,23 +495,41 @@ a{
     background-color: var(--db-grey);
     display: flex;
     flex-wrap: wrap;
-    position: relative;
 }
 
+.cover_central_designit{
+
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+
+
+}
 
 #image_center_designit{
 
     height: 50px;
-    position: absolute;
-    left: -100px;
-    top: 20px;
+    margin-bottom: 25px;
+    margin-right: 24px;
+    align-self: flex-end;
+
+}
+
+#hr_designit{
+
+    
+    color: var(--db-grey);
+    width: 50px;
+
 }
 
 .designit_center_paragraph{
 
     font-size: 10px;
-    padding: 21px;
-    height: 10px;
+    margin: 15px 0;
+    
 
 }
 
@@ -693,6 +711,8 @@ a{
     padding: 10px 0px;
 
 }
+
+
 
 .quest_faq{
 
