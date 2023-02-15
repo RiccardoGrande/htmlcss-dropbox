@@ -38,6 +38,7 @@ body{
 
     height: 3rem;
     max-width: 1152px;
+    margin: auto;
     width: 100%;
     display: flex;
     
@@ -94,6 +95,7 @@ body{
 .free_try_plan{
 
     max-width: 1152px;
+    margin: auto;
     width: 100%;
     height: 70vh;
     display: flex;
@@ -158,6 +160,7 @@ body{
 .business{
 
     max-width: 1152px;
+    margin: auto;
     width: 100%;
     height: 150vh;
     display: flex;
@@ -340,6 +343,7 @@ a{
 .contact_partner, .designit{
 
     max-width: 1152px;
+    margin: auto;
     width: 100%;
     height: 70vh;
     display: flex;
@@ -402,6 +406,7 @@ a{
 .operations{
 
     max-width: 1152px;
+    margin: auto;
     width: 100%;
     height: 115vh;
     display: flex;
@@ -459,6 +464,7 @@ a{
 .banner_team_client, .start_free_try{
 
     max-width: 1152px;
+    margin: auto;
     width: 100%;
     height: 40vh;
     display: flex;
@@ -598,6 +604,7 @@ a{
 .section_faq{
 
     max-width: 1152px;
+    margin: auto;
     width: 100%;
     height: 60vh;
     display: flex;
@@ -635,21 +642,21 @@ a{
 .information{
 
     max-width: 1152px;
+    margin: auto;
+    padding-top: 20px;
     width: 100%;
     height: 70vh;
     display: flex;
     justify-content: center; 
     flex-wrap: wrap;   
-    background-color: #37183d;
+    background-color: var(--db-black);
 
 }
 
 .container_information{
 
     margin: 10px auto;
-    height: 80%;
     width: 70%;
-    background-color: rgb(67, 177, 185);
     display: flex;
 }
 
@@ -658,13 +665,46 @@ a{
     margin: 0px auto;
     height: 10%;
     width: 70%;
-    background-color: rgb(67, 177, 185);
 
 }
 
 .items{
 
     width: calc(100% / 5);
-    background-color: #369e1e;
-    border: 1px solid black;
+}
+
+.item_title{
+
+    color: white;
+    list-style: none;
+    padding: 1rem 0;
+    font-weight: bold;
+
+}
+
+.item_column, #lenguage_selection{
+
+    color: rgb(209, 207, 207);
+    list-style: none;
+    line-height: 2.0;
+    font-size: 10px;
+
+}
+
+#hr_detail_lenguage{
+
+    width: 70px;
+
+}
+
+#lenguage_selection{
+
+    padding: 20px 0px;
+
+}
+
+.lenguageicon{
+
+    vertical-align: middle;
+
 }
