@@ -724,13 +724,28 @@ a{
 
     padding-left: 150px;
     font-size: 7px;
+
 }
 
-/* .arrow_hide:hover{
+.arrow:hover{
 
+    animation-name: arrowdown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 
+}
 
-} */
+.paragraph_hide{
+
+    display: none;
+
+}
+.paragraph_hide:hover{
+
+    display: flex;
+
+}
+
 
 .information{
 
