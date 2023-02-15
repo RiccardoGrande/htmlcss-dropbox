@@ -546,6 +546,19 @@ a{
 
 }
 
+.cover_florida{
+
+    background-color: var(--db-sky);
+
+}
+
+.image_florida{
+
+    fill: white;
+    height: 60px;
+
+}
+
 .image_university{
 
     fill: white;
