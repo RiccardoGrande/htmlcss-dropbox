@@ -61,6 +61,12 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: border-bottom 1s;
+}
+
+.head_icon:hover{
+
+    border-bottom: 2px solid black;
 }
 
 #logo{
@@ -82,6 +88,16 @@ body{
     background-color: var(--db-blue);
     color: white;
     border: none;
+
+}
+
+.text_header_button:hover, #free_try_button:hover, #contact_sales_button:hover{
+
+    padding: 5px 8px;   
+    background-color: var(--db-blue);
+    color: white;
+    border: none;
+    opacity: 0.5;
 
 }
 
@@ -401,6 +417,14 @@ a{
     padding: 5px;
     margin-left: 4px;
     background-color: #fff;
+}
+
+#button_find_partner:hover, #button_business:hover{
+
+    padding: 5px;
+    margin-left: 4px;
+    background-color: #fff;
+    text-shadow: 0 0 3px #7eebaf;
 }
 
 .operations{
@@ -724,15 +748,14 @@ a{
 
     padding-left: 150px;
     font-size: 7px;
+    transition: transform 1s padding-left 1s;
 
 }
 
 .arrow:hover{
 
-    animation-name: arrowdown;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-
+        transform: rotateY(180deg);
+        padding-left: 150px;
 }
 
 .paragraph_hide{
