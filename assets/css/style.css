@@ -785,18 +785,31 @@ a{
 
 }
 
-.arrow{
+.arrow_down{
 
     padding-left: 150px;
     font-size: 7px;
-    transition: transform 1s padding-left 1s;
-
+    
 }
 
-.arrow:hover{
+.arrow_down:hover{
 
-        transform: rotateY(180deg);
-        padding-left: 150px;
+       display: none;
+}
+
+.arrow_up{
+
+    padding-left: 150px;
+    font-size: 7px;
+    display: none;
+    overflow: hidden;
+}
+
+.arrow_up:hover{
+
+    
+    display: inline;
+
 }
 
 .paragraph_hide{
@@ -806,7 +819,7 @@ a{
 }
 .paragraph_hide:hover{
 
-    display: flex;
+    display: inline;
 
 }
 
