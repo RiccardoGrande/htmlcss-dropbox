@@ -1,3 +1,6 @@
+
+    /* default section */
+
 *{
     padding: 0;
     margin: 0;
@@ -26,6 +29,8 @@ body{
 
 }
 
+
+
 .debug{
 
     border: 1px solid black;
@@ -33,6 +38,11 @@ body{
     
 
 }
+
+/* end default section */
+
+
+/* start header */
 
 .headbanner{
 
@@ -106,6 +116,18 @@ body{
 
 }
 
+/* end of header */
+
+
+
+
+/* start of main */
+
+
+
+/* start section plans */
+
+
 .free_try_plan{
 
     max-width: 1152px;
@@ -170,6 +192,9 @@ body{
     top: 116px;
 }
 
+/* end of section plans */
+
+/* start section business */
 
 .business{
 
@@ -352,7 +377,10 @@ a{
 
 }
 
+/* end of section plans */
 
+
+/* start of section partner */
 
 .contact_partner, .designit{
 
@@ -422,6 +450,11 @@ a{
     
     text-shadow: 0 0 3px #7eebaf;
 }
+
+/* end of business section */
+
+
+/* start section operations */
 
 .operations{
 
@@ -506,6 +539,10 @@ a{
     font-size: 8px;
     color: blue;
 }
+
+/* end of section operations */
+
+/* start of section designit */
 
 .container_designit{
 
@@ -611,12 +648,6 @@ a{
 
 }
 
-.image_florida{
-
-    fill: white;
-    height: 40px;
-
-}
 
 .image_university{
 
@@ -677,6 +708,12 @@ a{
 
 }
 
+/* end of section designit */
+
+
+
+/* start section free try */
+
 .start_free_try{
 
     background-color: var(--db-azure);
@@ -706,6 +743,14 @@ a{
     font-size: 10px;
 }
 
+/* end section free try */
+
+/* end of main */
+
+
+/* start of footer */
+
+/* start section faq */
 .section_faq{
 
     max-width: 1152px;
@@ -835,3 +880,7 @@ a{
     vertical-align: middle;
 
 }
+
+/* end section faq */
+
+/* end of footer */
