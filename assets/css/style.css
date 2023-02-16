@@ -61,13 +61,14 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    transition: border-bottom 1s;
+    transition: border-bottom 0.1s;
 }
 
 .head_icon:hover{
 
     border-bottom: 2px solid black;
 }
+
 
 #logo{
 
@@ -93,10 +94,7 @@ body{
 
 .text_header_button:hover, #free_try_button:hover, #contact_sales_button:hover{
 
-    padding: 5px 8px;   
-    background-color: var(--db-blue);
-    color: white;
-    border: none;
+    
     opacity: 0.5;
 
 }
@@ -421,9 +419,7 @@ a{
 
 #button_find_partner:hover, #button_business:hover{
 
-    padding: 5px;
-    margin-left: 4px;
-    background-color: #fff;
+    
     text-shadow: 0 0 3px #7eebaf;
 }
 
